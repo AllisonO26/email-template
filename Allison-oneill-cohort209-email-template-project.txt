@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>Email template</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+ <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-2 side">
+                <h4>Welcome</h4>
+                <button type="button" class="btn btn-secondary">Compose</button>
+                <br></br>
+                <ul>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Sent Mail</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Important</a></li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+                </div>
+    <div class="col-md-4 menu">
+                    <nav class="navbar navbar-light">
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search for Email" aria-label="Search">
+                          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </nav>
+                </div>
+    <div class="col-sm" id = third>
+    <div id = "contents-email>
+   <ui class = "list">
+    <li id="email-meta">November 14, 2020 - 12:34pm</li> 
+     <li id="email-meta">Allison O'Neill (<a href="#">Allisononeill19@yahoo.com</a>)</li>
+      </ui>
+      <p> Hey! Booking the trip down to DisneyLand. Would you like to stay across the
+       way or in a little nicer room with a little further walk to and from park?
+       </p>
+  </div>
+</div>
+</body>
+</html>
